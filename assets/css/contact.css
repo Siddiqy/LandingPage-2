@@ -6,25 +6,104 @@
     color: #fff;
 }
 
-.side-nav-item ul {
+.brochure {
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 30px 20px;
+    background-color: #FBFBFB;
+}
+
+.brochure h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.brochure p {
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8A8A8A;
+}
+
+.download-btn {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0CBBBF;
+    padding: 12px 0px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.side-nav ul {
     list-style: none;
     margin: 0px;
+    padding: 0px;
 }
 
 .side-nav ul > li {
-    list-style: none;
-    padding: 20px 0px;
+    padding: 5px 0px;
 }
 
 .side-nav ul > li > a {
+    display: block;
     text-decoration: none;
     background-color: #FBFBFB;
-    padding: 15px 50px;
-    font-size: 13px;
+    color: #020202;
+    padding: 18px 0px 20px 40px;
+    margin-right: 20px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+    font-weight: 800;
 }
 
-.accordion-item-bg {
+.side-nav ul > li > a:hover {
+    background-color: #0CBBBF;
+    color: #fff;
+}
+
+.accordion {
+    margin-top: 30px;
+    border: none;
+}
+
+.accordion-item {
+    margin: 14px 0px;
+    box-shadow: 1px 1px 4px #c5c5c5;
+}
+
+.accordion-button-style {
+    display: block;
+    padding: 16px 0px;
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight: 800;
+    color: #020202;
     background-color: #FBFBFB;
+}
+
+.accordion-button-style::after {
+    content: "+";
+    color: #fff;
+    background: #0CBBBF;
+    float: right;
+    padding: 1px 6px;
+    margin-right: 15px;
+}
+
+.accordion-button-style[aria-expanded="true"]::after {
+    content: "-";
+    padding: 1px 8px;
+}
+
+.accordion-body {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #8A8A8A;
 }
 
 footer {
