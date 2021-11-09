@@ -1,0 +1,80 @@
+
+.blog-img-1 {
+    background-image: url("../images/blog-img-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.blog-img-2 {
+    background-image: url("../images/blog-img-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.blog-img-3 {
+    background-image: url("../images/blog-img-3.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.blog-img-4 {
+    background-image: url("../images/blog-img-4.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.blog-section, .blog-search {
+    padding-top: 30px;
+}
+
+.search-field {
+    margin-right: 40px;
+    padding: 20px 0px;
+}
+
+.blog-panel {
+    margin: 30px 0px;
+}
+
+.blog-content {
+    padding: 30px 0px;
+}
+
+.blog-content span {
+    padding-left: 15px;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: rgb(114, 113, 113);
+}
+
+.blog-content h5 {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1a1919;
+}
+
+.blog-content p {
+    padding-left: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(114, 113, 113);
+}
+
+.blog-content a {
+    padding-left: 15px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Zilla Slab', serif;
+    color: #0ecbce;
+}
