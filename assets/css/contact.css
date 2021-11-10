@@ -39,11 +39,10 @@
     padding-left: 20px;
 }
 
-.btn-submit {
+.btn-send {
     margin-top: 8px;
     padding: 14px 40px;
     border-style: none;
-    border-radius: 25px;
     color: #fff;
     font-size: 1rem;
     font-weight: 600;

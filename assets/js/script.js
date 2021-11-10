@@ -10,11 +10,19 @@ function scrollFunction() {
   }
 }
 
-jQuery(document).ready(function($) { 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        nav:true,
-        dots: true,
-        autoplay: false
-    })
+$('.slider-image').owlCarousel({
+    loop:true,
+    nav:true,
+    dots: true,
+    autoplay: false
+})
+
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item-1',
+  columnWidth: col-sm-6
+});
+
+$(".portfolio-list").isotope({
+  
 });

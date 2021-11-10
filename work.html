@@ -5,11 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/blog.css">
-        <link rel="stylesheet" href="assets/css/faqs.css">
+        <link rel="stylesheet" href="assets/css/work.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
         <title>Document</title>
     </head>
     <body>
@@ -51,7 +49,7 @@
                 </div>
             </div>
         </header>
-        <section class="bg-dark mb-4">
+        <section class="hero-img-overlay">
             <div class="container">
                 <div class="row">
                     <div class="title-text col-12 text-center">
@@ -63,25 +61,68 @@
         <section class="section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-4">
-                        <div class="side-nav col-sm-12">
-                            <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Graphic Design</a></li>
-                                <li><a href="#">Corporate Identity</a></li>
-                                <li><a href="#">Branding</a></li>
-                                <li><a href="#">Web Development</a></li>
-                            </ul>
-                        </div>
-                        <div class="brochure">
-                            <h3>Brouchure</h3>
-                            <p>Download our latest company brochure</p>
-                            <button type="button" class="download-btn col-12">Download Brochure</button>
+                    <div class="button-group portfolio-filter col-12 col-sm-12 text-center">
+                        <button class="button is-checked" data-filter="*">All</button>
+                        <button class="button" data-filter=".agency .branding">Agency</button>
+                        <button class="button" data-filter=".design">Design</button>
+                        <button class="button" data-filter=".design .app-design">App Design</button>
+                        <button class="button" data-filter=".branding">Branding</button>
+                    </div>
+                </div>    
+                <div class="row portfolio-list">
+                    <div class="element-item agency col-12 col-sm-6">
+                        <div class="portfolio-item-1">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
                         </div>
                     </div>
+                    <div class="element-item branding col-12 col-sm-6">
+                        <div class="portfolio-item-2">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>    
+                    </div>
+                    <!--
+                    <div class="element-item design col-6 col-sm-3">
+                        <div class="portfolio-item-3">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    <div class="element-item design col-6 col-sm-3">
+                        <div class="portfolio-item-4">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    <div class="element-item agency col-12 col-sm-6">
+                        <div class="portfolio-item-6">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    <div class="element-item app-design col-6 col-sm-3">
+                        <div class="portfolio-item-7">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    <div class="element-item app-design col-6 col-sm-3">
+                        <div class="portfolio-item-8">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    <div class="element-item branding col-12 col-sm-6">
+                        <div class="portfolio-item-5">
+                            <span><i class="fas fa-eye"></i></span>
+                            <h5>View Design</h5>
+                        </div>
+                    </div>
+                    -->
                 </div>
             </div>
-        </section>            
+        </section>           
         <section class="bg-overlay">
             <div class="container">
                 <div class="row">
@@ -126,11 +167,12 @@
                 </div>
             </div>
         </footer>
-        <script src="assets/js/script.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="assets/js/bootstrap.min.js" ></script>
-        <script src="assets/js/jquery-3.6.0.min.js" ></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/masonry.pkgd.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
         <script src="assets/js/all.min.js"></script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
